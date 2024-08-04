@@ -1,0 +1,105 @@
+* {
+    padding: 0%;
+    margin: 0%;
+
+}
+
+body{
+    background-image: linear-gradient(to right ,rgb(14, 14, 15),rgb(15, 15, 31));
+}
+
+#main_div {
+    background-image: url(https://images2.alphacoders.com/238/238870.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;   
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 3.5%;  
+    border-radius: 10px;
+    
+ 
+}
+
+#left_text {
+    width: 40%;
+    color: whitesmoke;
+   
+}
+
+#welcome{
+    font-size: 25px;
+}
+#left_text h2  {
+    font-size: 20px;
+    margin-top: 60%; 
+    margin-left: 15%;
+    text-align: center;
+    background-color: rgba(185, 177, 177, 0.034);  
+}
+#left_text p{
+    margin-left: 15%;
+    text-align: center;
+    font-weight: 500;
+    margin-top: 3%;
+    background-color: rgba(185, 177, 177, 0.055);   
+    
+}
+
+span {
+    font-size: 45px;
+    text-align: left;
+}
+
+#right h1 {
+    color: whitesmoke;
+    margin-bottom: 15px;
+    padding-top: 20px;
+}
+
+#right {
+    margin-left: 10%;
+    width: 60%;
+    background-color: rgba(201, 201, 202, 0.192);
+}
+
+#form {
+    padding: 10px;
+    margin-left: 10%;
+}
+
+#right input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 2px;
+    border: none;
+    width: 80%;
+    outline: none;
+}
+
+#right p{
+    margin-left: 42%; 
+    font-weight: 700;
+    margin-bottom: 20px;
+
+}
+#right p a{
+    color: white;
+    
+}
+#right label {
+    color: white;
+    margin-bottom: 5px;
+}
+
+.button {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: medium;
+    width: 85%;
+}
